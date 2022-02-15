@@ -1,0 +1,44 @@
+2022-02-15 10:02:814 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:117 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:134 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:218 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:217 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:02 INFO  searchPage :22 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (6a72c9422aa1ca21acbcd485b34fc988)] -> id: orb-search-q]
+2022-02-15 11:02:127 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:819 INFO  searchPage :22 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (253256b715e0d9d5952c510330d9dc36)] -> id: orb-search-q]
+2022-02-15 11:02:462 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 11:02:397 INFO  searchPage :22 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (9b8940a3ec891388f0841ee9ff3c6a64)] -> id: orb-search-q]
+2022-02-15 15:02:992 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 15:02:413 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 15:02:596 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 15:02:836 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 15:02:715 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (fa1cec9a1686e9d48670b218d1f8c010)] -> id: idcta-username]
+2022-02-15 16:02:774 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:153 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (98fa79577e0d34007cdae6fa1bbca100)] -> id: idcta-username]
+2022-02-15 16:02:606 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:34 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (8c41755a735c6dc8f342f0a26b2129b9)] -> id: idcta-username]
+2022-02-15 16:02:475 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:740 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (2d47a0080ec310a11f09654009f5f0c5)] -> id: idcta-username]
+2022-02-15 16:02:452 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:792 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:75 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (a5fceb6d3fd7bd17ee5355102393120d)] -> id: idcta-username]
+2022-02-15 16:02:396 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:819 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (a7d8c3497cdf40617a0a6ba48ce2c6ec)] -> id: idcta-username]
+2022-02-15 16:02:419 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:788 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (5cad82e7aa0efe9914988ae07200979d)] -> id: idcta-username]
+2022-02-15 16:02:725 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:14 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (e6b032a8a276eb1614512c943cfdb308)] -> id: idcta-username]
+2022-02-15 16:02:438 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:325 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (5c1aae19ca2b9c2d8c6f8e7af8f59dbf)] -> id: idcta-username]
+2022-02-15 16:02:933 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:457 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (806eedca0569f157d28a63011af18121)] -> id: idcta-username]
+2022-02-15 16:02:214 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:720 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:975 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (f5154097ec574e7db1846f8cd8a8c825)] -> id: idcta-username]
+2022-02-15 16:02:785 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:470 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (4e4459d8881efebd2a2f4bbef1b49567)] -> id: idcta-username]
+2022-02-15 16:02:349 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:488 INFO  loginPage :40 - Getting text from : [[ChromeDriver: chrome on WINDOWS (f1c1bd05726e8a966dd1c07453b53bb9)] -> id: idcta-username]
+2022-02-15 16:02:205 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:493 INFO  ManageDriver :33 - Launching chrome Browser
+2022-02-15 16:02:182 INFO  searchPage :22 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (8d9035935d699c5f15e3781156aaae86)] -> id: orb-search-q]

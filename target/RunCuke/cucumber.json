@@ -1,0 +1,585 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7669457800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+        "description": "contains is as expected.",
+        "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1046650100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 195140700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194679200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on login link",
+            "match": {
+              "location": "loginStep.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1340753700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"abcd123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "loginStep.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134988700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"xyz123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123",
+                  "offset": 18
+                }
+              ],
+              "location": "loginStep.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129550400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "loginStep.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74725500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the error message \"It needs to be eight characters or more.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "It needs to be eight characters or more.",
+                  "offset": 32
+                }
+              ],
+              "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3579303200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+        "description": "contains is as expected.",
+        "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 955412200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157361000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on login link",
+            "match": {
+              "location": "loginStep.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1503507800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"xyz123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "loginStep.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174991100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 18
+                }
+              ],
+              "location": "loginStep.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116676900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "loginStep.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79351900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the error message \"It needs to be eight characters or more.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "It needs to be eight characters or more.",
+                  "offset": 32
+                }
+              ],
+              "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4062990900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it",
+        "description": "contains is as expected.",
+        "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’,-and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 977195400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107826500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on login link",
+            "match": {
+              "location": "loginStep.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1395282400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"adfafasd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adfafasd@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "loginStep.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140869000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"xyz123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz123",
+                  "offset": 18
+                }
+              ],
+              "location": "loginStep.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100980100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "loginStep.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52665400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the error message \"It needs to be eight characters or more.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "It needs to be eight characters or more.",
+                  "offset": 32
+                }
+              ],
+              "location": "loginStep.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a QA, I would like to verify all negative scenarios for login",
+    "description": "",
+    "id": "as-a-qa,-i-would-like-to-verify-all-negative-scenarios-for-login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3316734600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Output all team names with a match today. If there  are no matches today, output a message to convey this.",
+        "description": "",
+        "id": "as-a-business-user,-i-would-like-to-make-a-record-of-all-teams-which-are-playing-today;output-all-team-names-with-a-match-today.-if-there--are-no-matches-today,-output-a-message-to-convey-this.",
+        "after": [
+          {
+            "result": {
+              "duration": 965947400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should navigate to page successfully",
+            "match": {
+              "location": "MyStepsearch.iShouldNavigateToPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a business user, I would like to make a record of all teams which are playing today",
+    "description": "",
+    "id": "as-a-business-user,-i-would-like-to-make-a-record-of-all-teams-which-are-playing-today",
+    "keyword": "Feature",
+    "uri": "match.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3321756000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.",
+        "description": "",
+        "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports;use-the-search-option-to-find-all-articles-related-to-‘sports’.-output-the-first-heading-and-the-last-heading-returned-on-the-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 1128335300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 381196100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on search option \"sports\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sports",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepsearch.iClickOnSearchOption(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should navigate to page successfully",
+            "match": {
+              "location": "MyStepsearch.iShouldNavigateToPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a sports user, I would like to read about all articles related to sports",
+    "description": "",
+    "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports",
+    "keyword": "Feature",
+    "uri": "sports.feature"
+  }
+]
